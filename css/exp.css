@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    background-color: black;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li a:hover {
+    color: red;
+}
+
+h1 {
+    color: rgba(255, 0, 0, 0.664);
+}
+
+
+.h1p {
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+p {
+    margin-top: 1rem;
+}
